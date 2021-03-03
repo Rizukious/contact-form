@@ -1,0 +1,138 @@
+h1
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+    font-weight : bold;
+}
+label,a 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px; 
+}
+
+body {
+    font-family: "Quicksand", sans-serif, Helvetica;
+}
+
+.content{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    vertical-align: top;
+    text-align: justify;
+    padding: 50px;
+}
+
+.content > p {
+    text-indent: 20px;
+}
+
+.error{
+    background-color:#f05454; 
+    color:white; 
+    font-size:25px; 
+    padding:20; 
+    margin-top:50px;
+}
+
+.success{
+    background-color:#20639B; 
+    color:white; 
+    font-size:25px; 
+    padding:20; 
+    margin-top:50px;
+}
+
+.colTitle {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.rowsData {
+    font-family: "Quicksand";
+    font-size: 13px;
+    color: black;
+}
+
+.title_menu {
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: black;
+}
+
+.search input[type="text"],
+.search input[type="email"]  {
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    border: none;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 13px 55px 13px 20px;
+    font-weight: bold;
+}
+
+select {
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    border: none;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 13px 55px 13px 125px;
+    font-weight: bold;
+}
+
+
+/*support google chrome*/
+.place::-webkit-input-placeholder{
+    color: #f05454;
+}
+ 
+/*support mozilla*/
+.place:-moz-input-placeholder{
+    color: #f05454;
+}
+ 
+/*support internet explorer*/
+.place:-ms-input-placeholder{
+    color: #f05454;
+}
+
+.tombol{
+  padding: 12px 24px;
+  color: whitesmoke;
+  display: inline-block;
+  border-radius: 4px;
+}
+.tombol:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 12px 30px;
+  background-color: #f05454;
+  cursor: pointer;
+  box-shadow: 0 7px #af2d2d;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message2 {
+  padding: 12px 30px;
+  background-color: #20639B;
+  cursor: pointer;
+  box-shadow: 0 7px #173F5F;
+}
+
+.message2:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
